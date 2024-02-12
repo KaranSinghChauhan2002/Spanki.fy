@@ -1,1 +1,1 @@
-this is a spotify clone
+this is a spotify clone and it is currently in development
