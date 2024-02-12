@@ -56,7 +56,7 @@ body{
 }
 .logo img{
    width: 250px;
-   
+   filter: invert();
    padding-left: 10px;
    cursor: pointer;
 }
@@ -262,7 +262,7 @@ margin-left: 10px;
 
 .simg img{
     width: 700px;
- 
+ filter: invert();
 
     
 }
