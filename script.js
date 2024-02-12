@@ -135,7 +135,7 @@ let searchcontent = `    <div class="install1">
 
 
 <div class="simg">
-<img src="images/icons8-playlist-48.png" alt="">
+<img src="images/Group_2-removebg.png" alt="">
 <div class="searchbtn">
     <input class="content" name="searchbar1" type="text" placeholder="Search Songs...">
     <button class="sea">Search</button>
