@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ram Katha",
+        "duration": "19:03",
+        "src": "songs/bhakti/songs/rc.mp3",
+        "img": "songs/bhakti/rc.jpeg"
+    }
+    ,
+    {
+        "name": "Hanuman Chalisa",
+        "duration": "09:46",
+        "src": "songs/bhakti/songs/hc.mp3",
+        "img": "songs/bhakti/hc.jpeg"
+    }
+    ,
+    {
+        "name": "Gaytri Mantra",
+        "duration": "25:16",
+        "src": "songs/bhakti/songs/gm.mp3",
+        "img": "songs/bhakti/gm.jpeg"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "DEAF KEV - Invincible | Glitch Hop | NCS - Copyright Free Music",
+        "duration": "4:33",
+        "src": "songs/ncs/songs/deafkev.mp3",
+        "img": "songs/ncs/deafkev.jpg"
+    },
+    {
+        "name": "Disfigure - Blank | Melodic Dubstep | NCS - Copyright Free Music",
+        "duration": "3:29",
+        "src": "songs/ncs/songs/disfigure.mp3",
+        "img": "songs/ncs/disfigure.jpg"
+    },
+    {
+        "name": "Elektronomia - Sky High | Melodic House | NCS - Copyright Free Music",
+        "duration": "3:58",
+        "src": "songs/ncs/songs/electromania.mp3",
+        "img": "songs/ncs/electromania.jpg"
+    },
+    {
+        "name": "Electro-Light - Symbolism | Trap | NCS - Copyright Free Music",
+        "duration": "4:51",
+        "src": "songs/ncs/songs/electrotrap.mp3",
+        "img": "songs/ncs/electrotrap.jpg"
+    },
+    {
+        "name": "Julius Dreisig & Zeus X Crona - Invisible | Trap | NCS - Copyright Free Music",
+        "duration": "3:21",
+        "src": "songs/ncs/songs/Julius.mp3",
+        "img": "songs/ncs/Julius.jpg"
+    },
+    {
+        "name": "Unknown Brain - Superhero (feat. Chris Linton) | Trap | NCS - Copyright Free Music",
+        "duration": "3:01",
+        "src": "songs/ncs/songs/superhero.mp3",
+        "img": "songs/ncs/superhero.jpg"
+    },
+    {
+        "name": "Syn Cole - Feel Good | Melodic House | NCS - Copyright Free Music",
+        "duration": "3:02",
+        "src": "songs/ncs/songs/syncole.mp3",
+        "img": "songs/ncs/syncole.jpg"
+    },
+    {
+        "name": "Sub Urban - Cradles | Pop | NCS - Copyright Free Music",
+        "duration": "3:29",
+        "src": "songs/ncs/songs/suburban.mp3",
+        "img": "songs/ncs/suburban.jpg"
+    },
+    {
+        "name": "Elektronomia - Energy | Progressive House | NCS - Copyright Free Music",
+        "duration": "3:18",
+        "src": "songs/ncs/songs/energy.mp3",
+        "img": "songs/ncs/energy.jpg"
+    },
+    {
+        "name": "Tobu - Hope [Privated NCS Release]",
+        "duration": "4:45",
+        "src": "songs/ncs/songs/hope.mp3",
+        "img": "songs/ncs/hope.jpg"
+    },
+    {
+        "name": "Elektronomia - Limitless | Progressive House | NCS - Copyright Free Music",
+        "duration": "4:04",
+        "src": "songs/ncs/songs/limitless.mp3",
+        "img": "songs/ncs/limitless.jpg"
+    },
+    {
+        "name": "Tobu & Itro - Sunburst [Privated NCS Release]",
+        "duration": "4:04",
+        "src": "songs/ncs/songs/sunburst.mp3",
+        "img": "songs/ncs/limitless.jpg"
+    }
+]

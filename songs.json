@@ -1,0 +1,236 @@
+[
+    {
+        "name": "DEAF KEV - Invincible | Glitch Hop | NCS - Copyright Free Music",
+        "duration": "4:33",
+        "src": "songs/ncs/songs/deafkev.mp3",
+        "img": "songs/ncs/deafkev.jpg"
+    },
+    {
+        "name": "Disfigure - Blank | Melodic Dubstep | NCS - Copyright Free Music",
+        "duration": "3:29",
+        "src": "songs/ncs/songs/disfigure.mp3",
+        "img": "songs/ncs/disfigure.jpg"
+    },
+    {
+        "name": "Elektronomia - Sky High | Melodic House | NCS - Copyright Free Music",
+        "duration": "3:58",
+        "src": "songs/ncs/songs/electromania.mp3",
+        "img": "songs/ncs/electromania.jpg"
+    },
+    {
+        "name": "Electro-Light - Symbolism | Trap | NCS - Copyright Free Music",
+        "duration": "4:51",
+        "src": "songs/ncs/songs/electrotrap.mp3",
+        "img": "songs/ncs/electrotrap.jpg"
+    },
+    {
+        "name": "Julius Dreisig & Zeus X Crona - Invisible | Trap | NCS - Copyright Free Music",
+        "duration": "3:21",
+        "src": "songs/ncs/songs/Julius.mp3",
+        "img": "songs/ncs/Julius.jpg"
+    },
+    {
+        "name": "Unknown Brain - Superhero (feat. Chris Linton) | Trap | NCS - Copyright Free Music",
+        "duration": "3:01",
+        "src": "songs/ncs/songs/superhero.mp3",
+        "img": "songs/ncs/superhero.jpg"
+    },
+    {
+        "name": "Syn Cole - Feel Good | Melodic House | NCS - Copyright Free Music",
+        "duration": "3:02",
+        "src": "songs/ncs/songs/syncole.mp3",
+        "img": "songs/ncs/syncole.jpg"
+    },
+    {
+        "name": "Sub Urban - Cradles | Pop | NCS - Copyright Free Music",
+        "duration": "3:29",
+        "src": "songs/ncs/songs/suburban.mp3",
+        "img": "songs/ncs/suburban.jpg"
+    },
+    {
+        "name": "Elektronomia - Energy | Progressive House | NCS - Copyright Free Music",
+        "duration": "3:18",
+        "src": "songs/ncs/songs/energy.mp3",
+        "img": "songs/ncs/energy.jpg"
+    },
+    {
+        "name": "Tobu - Hope [Privated NCS Release]",
+        "duration": "4:45",
+        "src": "songs/ncs/songs/hope.mp3",
+        "img": "songs/ncs/hope.jpg"
+    },
+    {
+        "name": "Elektronomia - Limitless | Progressive House | NCS - Copyright Free Music",
+        "duration": "4:04",
+        "src": "songs/ncs/songs/limitless.mp3",
+        "img": "songs/ncs/limitless.jpg"
+    },
+    {
+        "name": "Tobu & Itro - Sunburst [Privated NCS Release]",
+        "duration": "4:04",
+        "src": "songs/ncs/songs/sunburst.mp3",
+        "img": "songs/ncs/limitless.jpg"
+    }
+    ,
+    {
+        "name": "Max' Choice: Duty Vs. Passion",
+        "duration": "3:38",
+        "src": "songs/ign/songs/dvp.mp3",
+        "img": "songs/ign/dvp.png"
+    }
+    ,
+    {
+        "name":"Mona: The Professional",
+        "duration": "4:08",
+        "src": "songs/ign/songs/mtp.mp3",
+        "img": "songs/ign/mtp.jpg"
+    }
+    ,
+    {
+        "name":"GTA V : Tralier-1",
+        "duration": "2:27",
+        "src": "songs/ign/songs/gtav1.mp3",
+        "img": "songs/ign/gtav1.jpg"
+    }
+    ,
+    {
+        "name":"GTA V : Tralier-2",
+        "duration": "4:27",
+        "src": "songs/ign/songs/gtav2.mp3",
+        "img": "songs/ign/gtav2.jpg"
+    }
+    ,
+    {
+        "name":"GTA Vice City",
+        "duration": "1:19",
+        "src": "songs/ign/songs/gtavc.mp3",
+        "img": "songs/ign/gtavc.jpg"
+    }
+    ,
+    {
+        "name":"GTA Vice City Extended",
+        "duration": "3:30",
+        "src": "songs/ign/songs/gtavce.mp3",
+        "img": "songs/ign/gtavce.jpg"
+    }
+    ,
+    {
+        "name":"RDR2 : That's The Way It Is",
+        "duration": "3:11",
+        "src": "songs/ign/songs/ttwii.mp3",
+        "img": "songs/ign/ttwii.jpg"
+    }
+    ,
+    {
+        "name":"RDR2 : See The Fire In Your Eyes",
+        "duration": "3:03",
+        "src": "songs/ign/songs/stfiye.mp3",
+        "img": "songs/ign/stfiye.jpg"
+    }
+    ,
+    {
+        "name":"Skyfall",
+        "duration": "3:03",
+        "src": "songs/ign/songs/skyfall.mp3",
+        "img": "songs/ign/skyfall.jpg"
+    }
+    ,
+    {
+        "name": "Ram Katha",
+        "duration": "19:03",
+        "src": "songs/bhakti/songs/rc.mp3",
+        "img": "songs/bhakti/rc.jpeg"
+    }
+    ,
+    {
+        "name": "Hanuman Chalisa",
+        "duration": "09:46",
+        "src": "songs/bhakti/songs/hc.mp3",
+        "img": "songs/bhakti/hc.jpeg"
+    }
+    ,
+    {
+        "name": "Gaytri Mantra",
+        "duration": "25:16",
+        "src": "songs/bhakti/songs/gm.mp3",
+        "img": "songs/bhakti/gm.jpeg"
+    }
+    ,
+    {
+        "name":"Pehela Nasha",
+        "duration":"4:18",
+        "src":"songs/90s/songs/pn.mp3",
+        "img":"songs/90s/pn.jpeg"
+    }
+    ,
+    {
+        "name":"Dekha eek khawab",
+        "duration":"4:33",
+        "src":"songs/90s/songs/dekt.mp3",
+        "img":"songs/90s/dekt.webp"
+    }
+    ,
+    {
+        "name":"Tu tu hai Wahi Dil ne Jisee....",
+        "duration":"7:10",
+        "src":"songs/90s/songs/tthw.mp3",
+        "img":"songs/90s/tthw.jpeg"
+    }
+    ,
+    {
+        "name":"Love is a long road -Tom Petty",
+        "duration":"4:08",
+        "src":"songs/80s/songs/litlr.mp3",
+        "img":"songs/80s/love is a long road.jpg"
+    }
+    ,
+    {
+        "name":"Radio Ga Gaa",
+        "duration":"5:53",
+        "src":"songs/80s/songs//rgg.mp3",
+        "img":"songs/80s/radio Ga Gaa.png"
+    }
+    ,
+    {
+        "name":"Midnight City",
+        "duration":"4:04",
+        "src":"songs/80s/songs/mc.mp3",
+        "img":"songs/80s/midnight city.jpg"
+    }
+    ,
+    {
+        "name":"Self Control - Laura Branigan",
+        "duration":"5:07",
+        "src":"songs/80s/songs/sc.mp3",
+        "img":"songs/80s/self control.jpeg"
+    }
+    ,
+    {
+        "name":"Take On Me",
+        "duration":"3:50",
+        "src":"songs/80s/songs/tom.mp3",
+        "img":"songs/80s/takeonme.jpg"
+    }
+    ,
+    {
+        "name":"Gangster Paradise -Coolio",
+        "duration":"4:02",
+        "src":"songs/80s/songs/gp.mp3",
+        "img":"songs/80s/gp.jpeg"
+    }
+    ,
+    {
+        "name":"Running up that hill -Kate Bush",
+        "duration":"4:56",
+        "src":"songs/80s/songs/ruth.mp3",
+        "img":"songs/80s/ruth.webp"
+    }
+    ,
+    {
+        "name":"Time After Time -Cyndi Lauper",
+        "duration":"4:02",
+        "src":"songs/80s/songs/tat.mp3",
+        "img":"songs/80s/tat.jpg"
+    }
+
+]

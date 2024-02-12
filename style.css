@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    column-gap: .5vw;
+   background-color: black;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.left{
+    margin-left: 5px;
+ background-color: rgb(0, 0, 0);
+    width: 25vw;
+    height: 98.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 2px;
+    row-gap: 5px;
+}
+.right{
+    background-color:rgb(22, 22, 22);
+    width: 73.7vw;
+    height: 98.5vh;
+    border-radius: 10px;
+    margin-top: 2px;
+    overflow: auto;
+}
+.spotify{
+    background-color:rgb(22, 22, 22);
+    width: 100%;
+    height:30vh;
+    border-radius: 10px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    
+}
+.lib{
+    background-color:rgb(22, 22, 22);
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+.logo img{
+   width: 250px;
+   
+   padding-left: 10px;
+   cursor: pointer;
+}
+.logo{
+    padding-top: 10px;
+    height: 50%;
+    overflow: hidden;
+}
+.home img{
+    filter: invert();
+    width: 30px;
+}
+.home{
+    cursor: pointer;
+    display: flex;
+    height:20% ;
+    align-items: center;
+    font-size: 17px; 
+    padding: 20px;  
+}
+.search img{
+    filter: invert();
+    width: 30px;
+
+}
+.search{
+    cursor: pointer;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.search:hover{
+    border-radius: 20px;
+    background-color: rgba(17, 17, 17, 0.93);
+    transition: all .2s;
+}
+.home:hover{
+    border-radius: 20px;
+    background-color: rgba(17, 17, 17, 0.93);
+    transition: all .2s;
+}
+.Library{
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;
+  
+}
+.Library img{
+    width: 30px;
+    filter: invert();
+}
+.Library h2{
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.libsearch img{
+    width: 30px;
+    filter: invert();
+}
+.libsearch{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px;
+}
+.libsearch input{
+    border: 2px solid whitesmoke;
+    width: 0%;
+    height: 3vh;
+    background-color: rgba(17, 17, 17, 0.93) ;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.playlist{
+    background-color: black;
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    overflow:auto;
+}
+.liked img{
+width: 70px;
+border-radius: 10px;
+margin-left: 10px;
+}
+
+.liked{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    column-gap: 10px;
+    cursor: pointer;
+    height: 12vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+   border-radius: 10px;
+}
+.liked:hover{
+    background-color: rgba(17, 17, 17, 0.93);
+    border-radius: 10px;
+}
+.install a{
+    text-decoration:none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.install{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+   
+}
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    column-gap: 10px;
+    
+}
+.navigate img{
+    
+    border-radius:50px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+.install1{
+    background-color: black;
+    height: 7vh;
+}
+.homeplaylist {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(241, 207, 207);
+}
+
+/* homeeeeeeeeeeeee*/
+.spl {
+
+    column-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    width: 100%;
+    height: 50%;
+
+
+}
+.spl :hover{
+    background-color: rgba(26, 25, 25, 0.415);
+}
+
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    max-height: 30vh;
+    padding: 10px;
+    border-radius: 15px;
+    row-gap: 7px;
+    margin: auto;
+    flex-wrap: nowrap;
+    width: 160px;
+    text-overflow: clip;
+    text-align: center;
+    overflow: hidden;
+    transition: all .3s ease-in;
+
+}
+
+.simg img{
+    width: 700px;
+ 
+
+    
+}
+
+
+
+.p1 img,
+.p2 img,
+.p3 img,
+.p4 img,
+.p5 img,
+.p6 img,
+.p7 img {
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    image-rendering: auto;
+}
+
+
+.about {
+
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 10px;
+    height: 20vh;
+    color: white;
+    font-weight: lighter;
+    width: 100%;
+    margin-top: 30px;
+    align-items: safe;
+    justify-content: end;
+}
+
+
+/* @media only screen and (max-width: 431px) {
+    .left{
+        position: relative;
+        left: -300px;
+    }
+    .right{
+      background-color: rgb(0, 0, 0);
+      width: 100vw;
+    }
+  } */
+
+  .playbar{
+    width: 100%;
+    height: 11.5vh;
+    background-color:rgba(0, 0, 0, .8);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 10px;
+  }
+
+  /*search*/
+  .simg{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .searchbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .searchbtn button{
+    height: 6vh;
+    width: 10%;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.268);
+    border: 2px solid black;
+    color: white;
+  }
+  .searchbtn input{
+    border: 3px solid black;
+    width: 40%;
+    height: 6vh;
+    font-size: 20px;
+    background-color:rgb(22, 22, 22);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    
+  }
+
+  /*search*/
+
+
+  /*80s inside*/
+
+  .head{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 0, 200);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow:hidden;
+    font-size: 40px;
+    flex-direction: row;
+    
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .head p{
+    font-size: 15px;
+    
+
+  }
+  .thumb img{
+    width: 220px;
+    height: 170px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+  }
+  .head2{
+    background-color:rgb(255, 47, 47);
+  }
+  .head3{
+    background-color: greenyellow;
+  }
+  .head4{
+    background-color: orange;
+  }
+  .head5{
+    background-color: aqua;
+  }
+  .searchresult{
+    background-color: rgba(95, 90, 90, 0.8);
+  }
+  .searchresult img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 70px;
+    filter: invert();
+    border: 2px solid black;
+   
+  }
+  .thumb{
+    width: 220px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .nonee{
+    height: 1vh;
+  }
+  /*musiccc*/
+.musicbox{
+display: flex;
+    height:7vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.323);
+    align-items:center;
+    column-gap: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .musicbox:hover{
+    transition: all .2s ease-in;
+    background-color: rgba(0, 0, 0, .8);
+  }
+  .sno{
+    width: 5%;
+    font-size: 25px;
+  }
+  .one,.two,.three,.four ,.five,.searchul{
+    height: 55vh;
+    list-style-type: none;
+    overflow: auto;
+    scrollbar-color: rgba(0,0,0,0.8) rgba(0, 0, 0, 0.062);
+    scrollbar-width:auto;
+  }
+
+  .photo{
+    overflow: hidden;
+    width: 5%;
+  }
+  ul li div img{ 
+   width: 55px;
+   border-radius: 5px;
+}
+ul::-webkit-scrollbar {
+    width: 20px;
+}
+ul li .name{
+    width: 50%;
+    text-align: start;
+    font-size: 20px;
+
+}
+ul li .duration{
+    width: 20%;
+    text-align: end;
+}
+.heart{
+    height: 5vh;
+    width: 5%;
+    background-color: rgba(117, 114, 114, 0.977);
+
+}
+#sendmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 15vh;
+
+}
+
+ /*musiccc*/
+
+
+
+
+ /* this the the playbar bottom*/
+ .playbar{
+display: flex;
+align-items: center;
+
+flex-wrap: wrap;
+
+ }
+.imgbtm{
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgbottom{
+    width: 80px;
+    border-radius: 10px;
+
+}
+.sname{
+    width: 30%;
+    height: 100%;
+    text-overflow: clip;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display: flex;
+ 
+    align-items: center;
+    font-size: 20px;
+
+}
+
+/*use this as a seekbar creeator*/
+.mp{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   row-gap: 9px;
+
+}
+.pp{
+    width: 42%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    column-gap: 5px;
+    
+}
+.play,.prev,.next,.repeat,.loopplaylist{
+width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.p{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.repeat1,.loopPL{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.sb{
+    
+    width: 30vw;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.455);
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+   
+}
+.sb::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
+
+
+.sb::-webkit-progress-bar{
+    background-color: red;
+}
+
+.sounds{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.sounds img{
+    width :25px;
+}
+
+
+
+
+/*use this as a seekbar creeator*/
+
+
+
+
+
+
+
+
+
+
+ /* this the the playbar bottom*/

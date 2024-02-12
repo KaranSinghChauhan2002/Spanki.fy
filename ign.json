@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Max' Choice: Duty Vs. Passion",
+        "duration": "3:38",
+        "src": "songs/ign/songs/dvp.mp3",
+        "img": "songs/ign/dvp.png"
+    }
+    ,
+    {
+        "name":"Mona: The Professional",
+        "duration": "4:08",
+        "src": "songs/ign/songs/mtp.mp3",
+        "img": "songs/ign/mtp.jpg"
+    }
+    ,
+    {
+        "name":"GTA V : Tralier-1",
+        "duration": "2:27",
+        "src": "songs/ign/songs/gtav1.mp3",
+        "img": "songs/ign/gtav1.jpg"
+    }
+    ,
+    {
+        "name":"GTA V : Tralier-2",
+        "duration": "4:27",
+        "src": "songs/ign/songs/gtav2.mp3",
+        "img": "songs/ign/gtav2.jpg"
+    }
+    ,
+    {
+        "name":"GTA Vice City",
+        "duration": "1:19",
+        "src": "songs/ign/songs/gtavc.mp3",
+        "img": "songs/ign/gtavc.jpg"
+    }
+    ,
+    {
+        "name":"GTA Vice City Extended",
+        "duration": "3:30",
+        "src": "songs/ign/songs/gtavce.mp3",
+        "img": "songs/ign/gtavce.jpg"
+    }
+    ,
+    {
+        "name":"RDR2 : That's The Way It Is",
+        "duration": "3:11",
+        "src": "songs/ign/songs/ttwii.mp3",
+        "img": "songs/ign/ttwii.jpg"
+    }
+    ,
+    {
+        "name":"RDR2 : See The Fire In Your Eyes",
+        "duration": "3:03",
+        "src": "songs/ign/songs/stfiye.mp3",
+        "img": "songs/ign/stfiye.jpg"
+    }
+    ,
+    {
+        "name":"Skyfall",
+        "duration": "3:03",
+        "src": "songs/ign/songs/skyfall.mp3",
+        "img": "songs/ign/skyfall.jpg"
+    }
+]

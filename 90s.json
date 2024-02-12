@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Pehela Nasha",
+        "duration":"4:18",
+        "src":"songs/90s/songs/pn.mp3",
+        "img":"songs/90s/pn.jpeg"
+    }
+    ,
+    {
+        "name":"Dekha eek khawab",
+        "duration":"4:33",
+        "src":"songs/90s/songs/dekt.mp3",
+        "img":"songs/90s/dekt.webp"
+    }
+    ,
+    {
+        "name":"Tu tu hai Wahi Dil ne Jisee....",
+        "duration":"7:10",
+        "src":"songs/90s/songs/tthw.mp3",
+        "img":"songs/90s/tthw.jpeg"
+    }
+
+
+]

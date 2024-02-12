@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Love is a long road -Tom Petty",
+        "duration":"4:08",
+        "src":"songs/80s/songs/litlr.mp3",
+        "img":"songs/80s/love is a long road.jpg"
+    }
+    ,
+    {
+        "name":"Radio Ga Gaa",
+        "duration":"5:53",
+        "src":"songs/80s/songs//rgg.mp3",
+        "img":"songs/80s/radio Ga Gaa.png"
+    }
+    ,
+    {
+        "name":"Midnight City",
+        "duration":"4:04",
+        "src":"songs/80s/songs/mc.mp3",
+        "img":"songs/80s/midnight city.jpg"
+    }
+    ,
+    {
+        "name":"Self Control - Laura Branigan",
+        "duration":"5:07",
+        "src":"songs/80s/songs/sc.mp3",
+        "img":"songs/80s/self control.jpeg"
+    }
+    ,
+    {
+        "name":"Take On Me",
+        "duration":"3:50",
+        "src":"songs/80s/songs/tom.mp3",
+        "img":"songs/80s/takeonme.jpg"
+    }
+    ,
+    {
+        "name":"Gangster Paradise -Coolio",
+        "duration":"4:02",
+        "src":"songs/80s/songs/gp.mp3",
+        "img":"songs/80s/gp.jpeg"
+    }
+    ,
+    {
+        "name":"Running up that hill -Kate Bush",
+        "duration":"4:56",
+        "src":"songs/80s/songs/ruth.mp3",
+        "img":"songs/80s/ruth.webp"
+    }
+    ,
+    {
+        "name":"Time After Time -Cyndi Lauper",
+        "duration":"4:02",
+        "src":"songs/80s/songs/tat.mp3",
+        "img":"songs/80s/tat.jpg"
+    }
+
+
+]
