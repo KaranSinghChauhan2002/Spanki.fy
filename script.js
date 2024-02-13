@@ -78,6 +78,7 @@ function select(n) {
 let homecontent = `  <div class="install1">
                 <div class="install">
                 <div class="navigate"></div>
+                <div class="logomob"><img src="images/Group 3.png" alt=""></div>
                     <a class="install" target="_blank" href="payment.html">Support Us</a>
                 </div>
             </div>

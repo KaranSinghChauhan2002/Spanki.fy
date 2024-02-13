@@ -25,6 +25,7 @@ body{
     border-radius: 10px;
     margin-top: 2px;
     row-gap: 5px;
+   
 }
 .right{
     background-color:rgb(22, 22, 22);
@@ -33,6 +34,7 @@ body{
     border-radius: 10px;
     margin-top: 2px;
     overflow: auto;
+ 
 }
 .spotify{
     background-color:rgb(22, 22, 22);
@@ -51,7 +53,7 @@ body{
 .lib{
     background-color:rgb(22, 22, 22);
     width: 100%;
-    height: 80vh;
+    max-height: 80vh;
     border-radius: 10px;
 }
 .logo img{
@@ -63,7 +65,7 @@ body{
 .logo{
     padding-top: 10px;
     height: 50%;
-    overflow: hidden;
+    
 }
 .home img{
     filter: invert();
@@ -140,7 +142,7 @@ body{
 }
 .playlist{
     background-color: black;
-    height: 39vh;
+    min-height: 39vh;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -223,7 +225,7 @@ margin-left: 10px;
     flex-wrap: wrap;
     row-gap: 30px;
     width: 100%;
-    height: 50%;
+    min-height: 50%;
 
 
 }
@@ -290,26 +292,18 @@ margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     font-size: 10px;
-    height: 20vh;
+    min-height: 20vh;
     color: white;
     font-weight: lighter;
     width: 100%;
     margin-top: 30px;
     align-items: safe;
     justify-content: end;
+    text-align: center;
 }
 
 
-/* @media only screen and (max-width: 431px) {
-    .left{
-        position: relative;
-        left: -300px;
-    }
-    .right{
-      background-color: rgb(0, 0, 0);
-      width: 100vw;
-    }
-  } */
+
 
   .playbar{
     width: 100%;
@@ -531,7 +525,9 @@ flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     display: flex;
- 
+
+    overflow: hidden;
+    text-overflow:ellipsis;
     align-items: center;
     font-size: 20px;
 
@@ -614,19 +610,113 @@ width: auto;
 .sounds img{
     width :25px;
 }
+.logomob{
+    width: 10%;
+    height: 100%;
+    display: none;
+}
+.logomob img{
+    width: 50px;
+    filter: invert();
+}
 
 
+ @media only screen and (max-width: 431px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        display: flex;
+        column-gap: 0px;
+    }
+    .left{
+        position: relative;
+        left: -300px;
+    }
+    .right{
+      background-color: rgb(0, 0, 0);
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      padding: 0px;
+      position: relative;
+      left: -50px;
 
 
-/*use this as a seekbar creeator*/
+  
+    }
+    .logomob{
+        display:flex;
+    }
+    .install{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        column-gap: 0px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+    .sno,.name,.duration{
+        font-size: 10px;
+    }
+    ul li .name{
+        font-size: 10px;
+        width: 35%;
+    }
+.musicbox{
+    overflow: hidden;
+    height: 10vh;
+    text-overflow: clip;
+    overflow: hidden;
+    border-radius: 20px;
+   
+    
+}.photo{
+    width: 100px;
+    overflow: hidden;
+
+}
+.playbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+    width: 10%;
+}
+.imgbottom{
+    width: 50px
+}
+.sname{
+    font-size: 5px;
+
+    width: 15vw;
+
+}
+
+.repeat1,.loopPL,.p{
+    width: 20px;
+    height: 20px;
+}
+#soundlevel{
+    width: 50px;
+    
+}
+.sounds{
+    width: auto;
+    height: 100%;
+}
 
 
-
-
-
-
-
-
-
-
- /* this the the playbar bottom*/
+  } 
