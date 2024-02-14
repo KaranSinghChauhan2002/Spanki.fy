@@ -78,7 +78,7 @@ function select(n) {
 let homecontent = `  <div class="install1">
                 <div class="install">
                 <div class="navigate"></div>
-                <div class="logomob"><img src="images/Group 3.png" alt=""></div>
+                <div class="logomob"><img class="logomobi" src="images/Group 3.png" alt=""></div>
                     <a class="install" target="_blank" href="payment.html">Support Us</a>
                 </div>
             </div>
@@ -130,6 +130,7 @@ let homecontent = `  <div class="install1">
 let searchcontent = `    <div class="install1">
 <div class="install">
 <div class="navigate"></div>
+<div class="logomob"><img class="logomobi" src="images/Group 3.png" alt=""></div>
     <a class="install" target="_blank" href="payment.html">Support Us</a>
 </div>
 </div>
@@ -555,6 +556,58 @@ document.getElementsByClassName("home")[0].addEventListener("click", () => {
         await loopplaylist(0, "80s.json")
     })
 
+
+    //moboo
+
+    document.getElementsByClassName("logomob")[0].addEventListener("click", () => {
+        document.getElementsByClassName("left")[0].setAttribute("style", "z-index: 1;")
+        document.getElementsByClassName("left")[0].setAttribute("style", "position:relative;")
+    
+        document.getElementsByClassName("left")[0].setAttribute("style", "left:5px;")
+    
+        document.getElementsByClassName("right")[0].setAttribute("style", "z-index: -1;")
+        document.getElementsByClassName("logomobi")[0].setAttribute("src", "images/Group 3.png")
+    
+        document.getElementsByClassName("logomobi")[0].addEventListener("click", () => {
+            document.getElementsByClassName("left")[0].setAttribute("style", "position:relative;")
+    
+    
+            document.getElementsByClassName("right")[0].setAttribute("style", "z-index: 0;")
+            document.getElementsByClassName("left")[0].setAttribute("style", "left:-300px;")
+    
+        })
+        document.getElementsByClassName("search")[0].addEventListener("click", () => {
+            document.getElementsByClassName("left")[0].setAttribute("style", "position:relative;")
+    
+    
+            document.getElementsByClassName("right")[0].setAttribute("style", "z-index: 0;")
+            document.getElementsByClassName("left")[0].setAttribute("style", "left:-300px;")
+    
+            document.getElementsByClassName("logomobi")[0].addEventListener("click", () => {
+                document.getElementsByClassName("left")[0].setAttribute("style", "z-index: 1;")
+                document.getElementsByClassName("left")[0].setAttribute("style", "position:relative;")
+            
+                document.getElementsByClassName("left")[0].setAttribute("style", "left:5px;")
+            
+                document.getElementsByClassName("right")[0].setAttribute("style", "z-index: -1;")
+                document.getElementsByClassName("logomobi")[0].setAttribute("src", "images/Group 3.png")
+            })
+            document.getElementsByClassName("logomobi")[1].addEventListener("click", () => {
+                document.getElementsByClassName("left")[0].setAttribute("style", "z-index: 1;")
+                document.getElementsByClassName("left")[0].setAttribute("style", "position:relative;")
+            
+                document.getElementsByClassName("left")[0].setAttribute("style", "left:5px;")
+            
+                document.getElementsByClassName("right")[0].setAttribute("style", "z-index: -1;")
+                document.getElementsByClassName("logomobi")[0].setAttribute("src", "images/Group 3.png")
+            })
+    
+        })
+    
+    })
+
+    //mobo
+
 })
 
 
@@ -599,6 +652,9 @@ search.addEventListener("click", () => {
     document.getElementsByClassName("right")[0].innerHTML = ""
     document.getElementsByClassName("right")[0].innerHTML = searchcontent
     console.log("run2")
+
+
+
 
 })
 
